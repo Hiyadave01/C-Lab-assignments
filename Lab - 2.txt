@@ -1,0 +1,38 @@
+SUM OF N NATURAL NUMBERS
+
+
+#include<stdio.h>
+int main()
+{
+    int n, sum = 0;
+
+    printf("Enter a positive integer:");
+    scanf("%d", &n);
+
+    if (n<1){s
+        printf("Error! Enter a positive integer.");
+        return 1;
+    }
+    
+    sum = n * (n + 1) / 2;
+    printf("Sum = %d\n", sum);
+    return 0;
+}
+
+
+CHECKIN THE LEAP YEAR 
+
+#include<stdio.h>
+#include<conio.h>
+int main()
+{
+    int year;
+    printf("Enter a year:");
+    scanf("%d",&year);
+    if((year%4==0 && year%100!=0) || (year%400==0))
+        printf("%d is a leap year",year);
+    else
+        printf("%d is not a leap year",year);
+    return 0;
+    
+}
