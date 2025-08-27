@@ -2,7 +2,6 @@
 
 
 #include<stdio.h>
-#include<conio.h>
 
 int main(){
     printf("Hello World");
@@ -28,14 +27,16 @@ int main(){
 
 int main(){
 
-    int name, age;
+    char name;
+    int  age;
     printf("Enter your name:");
     scanf("%s", &name);
     printf("Enter your age:");
     scanf("%d", &age);
 
-    printf("Your name is: %d\n", name);
-    printf("Your age is: %d\n", age);
+    printf("Your name is %s\n.", &name);
+    printf("Your age is %d.", age);
+    
     return 0;
 
 }
