@@ -35,7 +35,7 @@ int main(){
     scanf("%d", &age);
 
     printf("Your name is %s\n.", &name);
-    printf("Your age is %d.", age);
+    printf("Your age is %d", age);
     
     return 0;
 
@@ -86,15 +86,16 @@ int main ()
 #include<stdio.h>
 
 int main() {
-    int celsius, fahrenheit;
+    float celsius, fahrenheit;
 
     //Input temperature in Celsius
     printf("Enter temperature in Celsius: ");
-    scanf("%d", &celsius);
+    scanf("%f", &celsius);
 
     //Convert Celsius to Fahrenheit
     fahrenheit = (celsius * 9/5) + 32;
-    printf("Temperature in Fahrenheit: %d\n", fahrenheit);
+    printf("Temperature in Fahrenheit: %f\n", fahrenheit);
     return 0;
     
+}
 }
