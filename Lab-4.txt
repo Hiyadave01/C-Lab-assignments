@@ -39,7 +39,7 @@ int main()
     printf("Enter height in meters:");
     scanf("%f", &height);
     printf("Enter the value of N1 N2:");
-    scanf("%f %F", &N1, &N2);
+    scanf("%f %f", &N1, &N2);
     
     BMI = weight / height*height;
     printf("Your BMI is: %.2f\n",BMI);
