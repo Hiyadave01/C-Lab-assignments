@@ -54,7 +54,7 @@ int main()
     return 0;
 }
 
-Q3) PYRAMID
+Q3 . A) PYRAMID
 
 #include<stdio.h>
 int main()
@@ -79,7 +79,7 @@ int main()
     
 }
 
-Q3 ) RIGHT ANGLED TRIANGLE
+Q3.B ) RIGHT ANGLED TRIANGLE
 
 #include<stdio.h>
 int main()
@@ -101,7 +101,7 @@ int main()
 }
 
 
-Q3) PATTERN 
+Q3 .C) PATTERN 
  
 #include<stdio.h>
 int main()
