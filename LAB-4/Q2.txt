@@ -1,0 +1,50 @@
+
+Q2 ) BMI 
+ 
+#include<stdio.h>
+int main()
+{
+    float BMI, weight, height, N1, N2;
+    printf("Enter weight in kg:");
+    scanf("%f", &weight);
+    printf("Enter height in meters:");
+    scanf("%f", &height);
+    printf("Enter the value of N1 N2:");
+    scanf("%f %f", &N1, &N2);
+    
+    BMI = weight / height*height;
+    printf("Your BMI is: %.2f\n",BMI);
+
+
+    //Validate input
+    if(height<=0 && weight< N1 || height<=0 && weight > N2){
+        printf("Invalid input.\n");
+        return 0;
+    }
+    else
+       {printf("You are classified as: ");}
+
+    //BMI Categories
+    if(BMI<15){
+        printf("STARVATION.\n");
+    }
+    else if(BMI >= 15.1 && BMI <= 17.5){
+        printf("ANOREXIC.\n");
+    }
+    else if(BMI >= 17.6 && BMI <= 18.5){
+        printf("UNDERWEIGHT.\n");
+    }  
+    else if(BMI >= 18.6 && BMI <= 24.9){
+        printf("IDEAL.\n");
+    }
+    else if(BMI >= 25 && BMI <= 29.9){
+        printf("OVERWEIGHT.\n");
+    }
+    else if(BMI >= 30 && BMI <= 39.9){
+        printf("OBESE.\n");
+    }
+    else{
+        printf("MORBIDLY OBESE.\n");
+    }
+    return 0;
+}
