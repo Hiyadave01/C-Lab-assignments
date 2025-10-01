@@ -1,0 +1,19 @@
+3) WRITE A PROGRAM THAT PROMTS THE USER TO ENTER THEIR NAME AND AGE
+
+#include<stdio.h>
+
+int main(){
+
+    char name;
+    int  age;
+    printf("Enter your name:");
+    scanf("%s", &name);
+    printf("Enter your age:");
+    scanf("%d", &age);
+
+    printf("Your name is %s\n.", &name);
+    printf("Your age is %d", age);
+    
+    return 0;
+
+}

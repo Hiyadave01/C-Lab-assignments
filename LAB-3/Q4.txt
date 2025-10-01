@@ -1,0 +1,14 @@
+4) WRITE A PROGRAM TO ADD TWO NUMBERS,TAKE THE NUMBER FROM THE USER
+
+#include<stdio.h>
+#include<conio.h>
+
+int main() {
+    
+     int num1, num2, sum;
+     printf("Enter two numbers: ");
+     scanf("%d%d", &num1, &num2);
+ 
+     printf("Sum = %d\n", num1 + num2);
+     return 0;
+}
