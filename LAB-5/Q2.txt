@@ -1,0 +1,18 @@
+Q2) WAP TO PRINT THE MULTIPLICATION TABLE OF THE NUMBER ENTERED BY THE USER. IT SHUD BE IN THE CORRECT FORMATTING. 
+
+#include <stdio.h>
+int main()
+{
+    int num, i;
+
+    // Taking user input
+    printf("Enter a number to display its multiplication table: ");
+    scanf("%d", &num);
+
+    printf("Multiplication table of %d:\n", num);
+    for (i = 1; i <= 10; i++)
+    {
+        printf("%d * %d = %d\n", num, i, num * i);
+    }
+    return 0;
+}
