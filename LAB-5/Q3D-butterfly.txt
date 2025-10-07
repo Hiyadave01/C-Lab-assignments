@@ -1,4 +1,4 @@
-Q3 .D) PATTERN BUTTERFLY
+Q3 D) PATTERN BUTTERFLY
 
 #include <stdio.h>
 int main() 
