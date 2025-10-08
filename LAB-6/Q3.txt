@@ -1,3 +1,5 @@
+//WAP TO READ A LIST OF INTEGERS AND STORE IT IN A SINGLE DIMENSION ARRAY. WRITE A C PROGRAM TO FIND THE FREQUENCY OF A PARTICULAR NUMBER IN A LIST OF INTEGERS
+
 #include <stdio.h>
 int main()
 {
@@ -23,4 +25,5 @@ int main()
 
     printf("The given number occurs %d times.",c);
     return 0;
+
 }
