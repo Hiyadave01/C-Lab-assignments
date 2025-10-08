@@ -1,0 +1,29 @@
+// ramanujan number
+#include <stdio.h>
+int main()
+{
+    int LHS, RHS;
+    for (int a = 1; a <= 20; a++)
+    {
+        for (int b = 1; b <= 20; b++)
+        {
+            for (int c = 1; c <= 20; c++)
+            {
+                for (int d = 1; d <= 20; d++)
+                {
+                    if (a != b && a != c && a != d && b != c && b != d && c != d)
+                    {
+                        LHS = a * a * a + b * b * b;
+                        RHS = c * c * c + d * d * d;
+                    }
+
+                    if (LHS == RHS)
+                    {
+                        printf(" %d=%d^3+ %d^3 and %d^3 + %d^3\n", LHS, a, b, c, d);
+                    }
+                }
+            }
+        }
+    }
+    return 0;
+}
