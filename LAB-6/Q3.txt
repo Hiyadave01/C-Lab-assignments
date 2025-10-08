@@ -1,9 +1,9 @@
-//WAP TO READ A LIST OF INTEGERS AND STORE IT IN A SINGLE DIMENSION ARRAY. WRITE A C PROGRAM TO FIND THE FREQUENCY OF A PARTICULAR NUMBER IN A LIST OF INTEGERS
+//WAP TO READ A LIST OF INTEGERS AND STORE IT IN A SINGLE DIMENSION ARRAY. WRITE A C PROGRAM TO FIND THE FREQUENCY OF A PARTICULAR NUMBER IN A LIST OF INTEGER
 
 #include <stdio.h>
 int main()
 {
-    int n,num,c=0;
+    int n,num,x=0;
     printf("Enter size of array: ");
     scanf("%d",&n);
     int arr[n];
@@ -19,11 +19,12 @@ int main()
     {
         if(arr[i]==num)
         {
-           c++;
+           x++;
         }
     }
 
-    printf("The given number occurs %d times.",c);
+    printf("The given number occurs %d times.",x);
     return 0;
 
 }
+
