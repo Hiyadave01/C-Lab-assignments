@@ -1,4 +1,4 @@
-//Find the second largest element in an array.
+//WAP TO FIND THE SECOND LARGEST NUMBER USING ARRAY
 
 #include <stdio.h>
 int main()
