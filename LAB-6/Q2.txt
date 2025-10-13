@@ -1,4 +1,5 @@
 // Count positive, negative, odd, even elements in an array.
+
 #include <stdio.h>
 int main()
 {
@@ -8,7 +9,7 @@ int main()
     int arr[n];
     for (int i = 0; i < n; i++)
     {
-        printf("Enter value number %d ", i + 1);
+        printf("Enter value number %d: ", i + 1);
         scanf("%d", &arr[i]);
         if (arr[i] > 0)
         {
@@ -33,4 +34,3 @@ int main()
     printf("Odd: %d\n", odd);
     return 0;
 }
-
